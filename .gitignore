@@ -1,0 +1,16 @@
+# dependencias
+node_modules/
+
+# builds
+.next/
+dist/
+
+# envs
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# sistema
+.DS_Store
+Thumbs.db
