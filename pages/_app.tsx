@@ -1,9 +1,6 @@
-import type { AppProps } from 'next/app';
+import type { AppProps } from 'next/app'
+import '../styles/globals.css'   // 👉 importa Tailwind global
 
 export default function App({ Component, pageProps }: AppProps) {
-  return (
-    <div style={{fontFamily: 'system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif', padding: 16}}>
-      <Component {...pageProps} />
-    </div>
-  );
+  return <Component {...pageProps} />
 }
