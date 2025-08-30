@@ -7,7 +7,10 @@ import { Card, CardBody } from '@/components/Card'
 import { PrimaryButton } from '@/components/PrimaryButton'
 import { useRouter } from 'next/router'
 
+
+
 export default function Consent() {
+  const router = useRouter(); 
   return (
   <AppShell>
     <PageHeader
