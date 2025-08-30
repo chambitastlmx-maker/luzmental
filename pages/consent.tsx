@@ -1,10 +1,10 @@
 // trigger redeploy
 
 import Link from 'next/link';
-import AppShell from '../components/AppShell'
-import { PageHeader } from '../components/PageHeader'
-import { Card, CardBody } from '../components/Card'
-import { PrimaryButton } from '../components/PrimaryButton'
+import AppShell from '@/components/AppShell'
+import { PageHeader } from '@/components/PageHeader'
+import { Card, CardBody } from '@/components/Card'
+import { PrimaryButton } from '@/components/PrimaryButton'
 import { useRouter } from 'next/router'
 
 export default function Consent() {
