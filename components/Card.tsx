@@ -9,7 +9,6 @@ export function Card({ children, className = '' }: { children: React.ReactNode; 
   )
 }
 
-
 export function CardHeader({ title, kicker }: { title: string; kicker?: string }) {
   return (
     <div className="border-b border-slate-100 p-5">
