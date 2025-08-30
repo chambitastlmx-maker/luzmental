@@ -40,5 +40,5 @@ export default function Consent() {
       </CardBody>
     </Card>
   </AppShell>
-)
+);
 }
